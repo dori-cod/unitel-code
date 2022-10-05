@@ -1,5 +1,5 @@
 # Portfólio | Unitel Code Web
-Meu Projeto do Unitel Code Web, usando HTML, CSS e JavaScript (Jquery).
+Meu Projeto do Unitel Code Web, usando HTML, CSS e JavaScript.
 
 
-![](image/Capa.png)
+![](img/Capa.png)
