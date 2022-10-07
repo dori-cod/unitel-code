@@ -14,6 +14,7 @@ html{
     margin: auto;
 }
 /*  navbar   inicio*/
+#logo{width: 230px;}
 .navbar{
     position: fixed;
     width: 100%;
@@ -133,7 +134,7 @@ html{
     bottom: 30px;
     opacity: 1;
     pointer-events:auto;
-    
+
 }
 
 /*  todos os codigos similares  */
@@ -169,7 +170,7 @@ section .title::after{
     padding: 5px;
     transform: translateX(-50%);
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .services, .skills, .depoiments, .contact, footer{
     font-family: 'Roboto', sans-serif;
 }
 .about .about-content,
@@ -185,7 +186,7 @@ section .title::after{
 /*  sessão sobre  */
 
 .about .title::after{
-    content: "Quem sou eu";
+    content: "Sobre mim";
 }
 .about .about-content .left{
     width: 45%;
@@ -227,16 +228,16 @@ section .title::after{
     border-radius: 6px;
 }
 /*  sessão serviços */
-.services, .teams{
+.services, .depoiments{
     background: #111;
     color: #fff;
 }
 .services .title::before,
-.teams .title::before{
+.depoiments .title::before{
     background: #fff;
 }
 .services .title::after,
-.teams .title::after{
+.depoiments .title::after{
     background: #111;
     content: "Que ofereço";
 }
@@ -343,20 +344,20 @@ section .title::after{
     width: 42%;
 }
 /*  sessão depoimentos  */
-.teams .title::after{
+.depoiments .title::after{
     content: "Reconhecimento";
 }
-.teams .carousel .card{
+.depoiments .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover{
+.depoiments .carousel .card:hover{
     background: #00804b;
 }
-.teams .carousel .card img{
+.depoiments .carousel .card img{
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -364,20 +365,20 @@ section .title::after{
     border: 5px solid #00804b;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img{
+.depoiments .carousel .card:hover img{
     border-color: #fff;
 }
-.teams .carousel .card .box{
+.depoiments .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+.depoiments .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.teams .carousel .card .text{
+.depoiments .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;

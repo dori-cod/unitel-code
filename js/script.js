@@ -1,9 +1,11 @@
 $(document).ready(function(){
     $(window).scroll(function(){
         if(this.scrollY > 20){
-            $('.navbar').addClass("sticky");
+            $('.navbar').addClass("sticky")
+            $('#logo').attr("src", "img/logo-alt.png");
         }else{
             $('.navbar').removeClass("sticky");
+            $('#logo').attr("src", "img/logo.png");
         }
         if(this.scrollY > 500){
             $('.scroll-up-btn').addClass("show");
